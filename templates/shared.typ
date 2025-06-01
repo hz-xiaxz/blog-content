@@ -201,7 +201,7 @@
   show: it => if is-same-kind {
     // set basic document metadata
     set document(
-      author: ("Myriad-Dreamin",),
+      author: ("Xuanzhe Xia",),
       ..if not is-web-target { (title: title) },
     )
 
