@@ -52,6 +52,8 @@
   tinymist: "Tinymist",
   typst: "Typst",
   misc: "Miscellaneous",
+  physics: "Physics",
+  diary: "Diary",
 )
 
 #let archive-tags = (
