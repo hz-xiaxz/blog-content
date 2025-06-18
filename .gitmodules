@@ -1,4 +1,4 @@
-[submodule "packages/zebraw"]
-	path = packages/zebraw
-	url = https://github.com/hongjr03/typst-zebraw/
-	branch = main 
+[submodule "packages/typst-zebraw"]
+	path = packages/typst-zebraw
+	url = git@github.com:hz-xiaxz/typst-zebraw.git
+	branch = main
