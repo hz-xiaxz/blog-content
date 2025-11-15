@@ -321,7 +321,7 @@ Tuning the coupling strength, we can see the BCS-BEC crossover.
 ]
 
 These assumptions lead to a ladder approximation.
-#figure(image("assets/scfqft/ladder.jpg"), caption: "Ladder approximation") <Figure-ladder>
+#figure(image("assets/scfqft/ladder1.jpg"), caption: "Ladder approximation") <Figure-ladder>
 
 In @Figure-ladder (a) direct and interchange lattice diagrams are considered
 #remark[
