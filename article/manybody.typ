@@ -16,7 +16,6 @@
   license: licenses.cc-by-nc-sa,
 )
 
-
 #set text(lang: "en")
 
 = Jellium Model
