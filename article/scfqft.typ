@@ -13,7 +13,8 @@
 #set text(lang: "en")
 #let colred(x) = text(fill: red, $#x$)
 #set math.equation(numbering: "(1)")
-
+#import cosmos.clouds: *
+#show: show-theorion
 #let feynman(body) = math.cancel(angle: 15deg, body)
 // #show: note_page.with(title, author, professor, creater, time, abstract)
 
