@@ -42,6 +42,7 @@ $ <Dyson>
 
 where $ (gamma_(alpha_1 alpha_2)) = mat(1, 0;0, -1) $
 
+
 With ladder approximation, the self energy equation is
 $
   Sigma_(alpha_1 alpha_2)(bold(r),tau) = Sigma_(alpha_1 alpha_2)^1 delta(bold(r)) hbar delta(tau) + G_(alpha_2 alpha_1) (-bold(r), -tau) Gamma_(alpha_1 alpha_2) (bold(r),tau)
