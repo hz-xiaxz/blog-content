@@ -17,6 +17,5 @@
 
 #set text(lang: "en")
 = Jordan Wigner transformation
-#definition[
-     
-]
+tV model can be viewed as an equivalent XXZ model.
+
