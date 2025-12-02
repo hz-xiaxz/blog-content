@@ -105,9 +105,9 @@ This is too strong, since the thermal state *forgets* all information from the i
 ]
 
 Now that,
-$ 
-  expval(A(t)) = sum_i abs(c_i)^2 A(E_i) + cal(O)(D^(-1/2)) 
- $
+$
+  expval(A(t)) = sum_i abs(c_i)^2 A(E_i) + cal(O)(D^(-1/2))
+$
 
 
 == Full ETH (FETH)
