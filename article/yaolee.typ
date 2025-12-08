@@ -10,8 +10,6 @@
 // 2. Other options:
 #set-qed-symbol[#math.qed]
 #set heading(numbering: "1.1")
-#set text(lang: "en")
-#set page(numbering: "1")
 #show link: underline
 
 #show: main.with(
