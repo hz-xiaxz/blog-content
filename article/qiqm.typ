@@ -143,7 +143,7 @@ The proof in the book seems a bit ad hoc, I copy and paste my previous note here
 We didn't constrain basis $ket(psi_(A B))$ before, but in the context of schmidt decomposition, we can always find a basis $ket(u_i)_A$, $ket(v_i)_B$ such that they are orthonormal 
 #theorem[
   A state has no correlation iff
-  1. $ket(psi_(A B)) = ket(psi_A) times.circle ket(psi_B)$, or
+  1. $ket(psi_(A B)) = ket(psi_A) times.o ket(psi_B)$, or
   2. $forall O_A, O_B, C(O_A,O_B) =0$
 ]
 
@@ -154,4 +154,38 @@ Schmidt decomposition gives a criterion of entanglement:
   2. Schmidt rank $>1$
   3. Reduced density matrix $rho_A$ (or $rho_B$) is mixed state
 ]
+
+=== Seperable mixed state
+#definition[
+  A mixed state $rho_(A B)$ is seperable iff it can be written as
+  $
+    rho_(A B) = sum_i p_i rho_A^(i) times.o rho_B^(i)
+  $
+  with $p_i>=0$, $sum_i p_i=1$
+]
+
+This is generally an NP-hard problem to determine whether a mixed state is seperable or not. We define
+#definition[
+  $ 
+    E_F = min_(sum_i p_i braket(psi_(i A B))) sum_i p_i E(ket(psi_(i A B))) 
+   $
+   where $E(ket(psi_(i A B))) = H({lambda_j}) $ where $lambda_j$ is the schmidt coefficients of $ket(psi_(i A B))$ 
+]
+
+For seperable states, $E_F=0$.
+
+=== Peres-Horodecki Criterion
+also termed as PPT criterion, for positive partial transpose. It is a necessary condition for separability.
+#theorem[
+  If a mixed state $rho_(A B)$ is separable, then the partial transpose $rho_(A B)^(T_B)$ is positive semidefinite.
+]
+Take Bell state as an example,
+$
+  rho_(A B) = ket(psi^-) bra(psi^-) = 1/2 (ket(01) + ket(10)) (bra(01) + bra(10)) \
+           = 1/2 (ket(01) bra(01) + ket(10) bra(10) + ket(01) bra(10) + ket(10) bra(01))
+$
+Taking partial transpose on B, you would get negative eigenvalues, thus it's entangled.
+
+
+
 
