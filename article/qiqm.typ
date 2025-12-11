@@ -143,7 +143,7 @@ The proof in the book seems a bit ad hoc, I copy and paste my previous note here
 We didn't constrain basis $ket(psi_(A B))$ before, but in the context of schmidt decomposition, we can always find a basis $ket(u_i)_A$, $ket(v_i)_B$ such that they are orthonormal 
 #theorem[
   A state has no correlation iff
-  1. $ket(psi_(A B)) = ket(psi_A) times.o ket(psi_B)$, or
+  1. $ket(psi_(A B)) = ket(psi_A) times.circle ket(psi_B)$, or
   2. $forall O_A, O_B, C(O_A,O_B) =0$
 ]
 
@@ -159,7 +159,7 @@ Schmidt decomposition gives a criterion of entanglement:
 #definition[
   A mixed state $rho_(A B)$ is seperable iff it can be written as
   $
-    rho_(A B) = sum_i p_i rho_A^(i) times.o rho_B^(i)
+    rho_(A B) = sum_i p_i rho_A^(i) times.circle rho_B^(i)
   $
   with $p_i>=0$, $sum_i p_i=1$
 ]
