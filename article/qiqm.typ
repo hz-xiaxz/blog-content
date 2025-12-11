@@ -147,3 +147,11 @@ We didn't constrain basis $ket(psi_(A B))$ before, but in the context of schmidt
   2. $forall O_A, O_B, C(O_A,O_B) =0$
 ]
 
+Schmidt decomposition gives a criterion of entanglement:
+#theorem[
+  The following statements are equivalent:
+  1. $ket(psi_(A B))$ is entangled
+  2. Schmidt rank $>1$
+  3. Reduced density matrix $rho_A$ (or $rho_B$) is mixed state
+]
+
