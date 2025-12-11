@@ -185,7 +185,8 @@ $
            = 1/2 (ket(01) bra(01) + ket(10) bra(10) + ket(01) bra(10) + ket(10) bra(01))
 $
 Taking partial transpose on B, you would get negative eigenvalues, thus it's entangled.
-
-
-
+ 
+#remark[
+  This is called *negative* in many body context. Check it out!
+]
 
