@@ -10,7 +10,7 @@
 
 #show: main.with(
   title: "Notes on Quantum Information Meets
-                      Quantum Matter",
+                        Quantum Matter",
   desc: [For discussion],
   date: "2025-12-11",
   tags: (blog-tags.physics,),
@@ -53,6 +53,19 @@ What does that mean? How do we bipartite a system after mean field approximation
   $
 ]
 Cute thing of mutual information is that it doesn't calculate expectation values, it's independent of the value of the variables.
+
+===== Mutual Information and KL divergence
+#definition[
+  $
+    D_("KL") (P||Q) = sum_i P(i) log (P(i)/Q(i))
+  $
+]
+Thus,
+$
+  I(X:Y) = D_("KL") (p(x,y) || p(x)p(y))
+$
+
+====== Mutual Information and correlation
 
 #definition[
   perfect correlation
