@@ -11,14 +11,20 @@
   tags: (blog-tags.physics, blog-tags.programming),
   license: licenses.cc-by-nc-sa,
 )
-= Memeory efficient Lanczos
+#set text(lang: "en")
+= Memory efficient Lanczos
 check this out! #link("https://lukefleed.xyz/posts/cache-friendly-low-memory-lanczos/")[Luke Fleed's blog post]
 
 Though it is not user friendly yet, however, memory is a major concern in ED, so might be good to keep in mind.
 
 #let th(body) = block(fill: luma(230), width: 100%, inset: 8pt, outset: 0pt, strong(body))
 #emph-box[
-  AI told me that's efficient when I need the eigenvector.
+AI told me that's efficient when I need the eigenvector.
+
+However, as the author of `Krylov.jl` points out they've already known a better trick termed `Saunders-Paige` trick for decades.
+]
+#conclusion[
+  If you are using Krylov.jl for a symmetric matrix (e.g., using cg, minres, or symmlq), you will not suffer from the $O(n k)$ memory explosion described in the blog post screenshot. You can safely solve massive systems (like the 500 million variable example mentioned) on a GPU without running out of RAM.
 ]
 
 = AI Feedback: Two-Pass Lanczos in ED
