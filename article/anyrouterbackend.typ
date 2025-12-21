@@ -4,7 +4,7 @@
 #show link: underline
 #show: main.with(
   title: "ABM: AnyRouter Backend Manager",
-  desc: [仿照NVM，我用AI写了一个AnyRouter的后端管理工具],
+  desc: [仿照nrm，我用AI写了一个AnyRouter的后端管理工具],
   date: "2025-12-21",
   tags: (blog-tags.ai,),
   license: licenses.cc-by-nc-sa,
@@ -13,10 +13,7 @@
 = AnyRouter Backend Manager
 Anyrouter 是一个方便的Claude白嫖工具，但是他的后端经常断联，即使运用代理也无法避免。
 
-收到NPM镜像管理工具 nvm 的启发，我让AI帮我写了一个AnyRouter的后端管理工具，叫做 ABM (AnyRouter Backend Manager)。
-
-它可以让你轻松地安装、切换和管理多个AnyRouter后端。
-
+收到NPM镜像管理工具 nrm 的启发，我让AI帮我写了一个AnyRouter的后端管理工具，叫做 ABM (AnyRouter Backend Manager)。它可以帮你测试多个AnyRouter后端的延迟，并自动切换到最快的那个。
 简单的几行代码就可以完成
 
 ```python
