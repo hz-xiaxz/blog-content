@@ -9,8 +9,8 @@
   tags: (blog-tags.ai,),
   license: licenses.cc-by-nc-sa,
 )
-= AnyRouter 返回502
-AnyRouter 白嫖Claude，偶尔会遇到502错误。
+= AnyRouter 返回520
+AnyRouter 白嫖Claude，偶尔会遇到520错误。
 参见这个#link("https://github.com/millylee/anyrouter-check-in/issues/57#issuecomment-3588931093")[github comment]
 
 首先 Clash要设置为TUN模式，然后删除
