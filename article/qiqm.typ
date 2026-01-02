@@ -192,6 +192,8 @@ Taking partial transpose on B, you would get negative eigenvalues, thus it's ent
 
 = Open Quantum system
 Sorry for personal reason I'm too lazy to read this part. Would follow up maybe.
+== The orthogonalization of Kraus operators
+
 
 = Quantum Error-Correcting Codes
 
