@@ -187,7 +187,7 @@ $
 Taking partial transpose on B, you would get negative eigenvalues, thus it's entangled.
  
 #remark[
-  This is called *negative* in many body context. Check it out!
+  This is called *negativity* in many body context. Check it out!
 ]
 
 = Open Quantum system
