@@ -35,7 +35,7 @@ For any reason, Hall is extremmely hard!
   where $Delta$ is a large and positive constsant, $ partial = partial_x - i partial_y$
 ]
 
-==== Fast check of hermitian of $hat(h)$
+==== Fast check of hermicity of $hat(h)$
 $
   hat(h) = Delta mat(-lambda^2 gradient^2, i lambda partial_i;i lambda overline(partial)_i, 1;delim: "[")\
 $
