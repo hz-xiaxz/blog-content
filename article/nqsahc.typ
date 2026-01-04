@@ -30,7 +30,7 @@ For any reason, Hall is extremmely hard!
 )[
   $lambda$-jellium model is a simple two-band generalization of the jellium model,
   $
-    hat(H) = Delta sum_(i=1)^N mat(-lambda^2 gradient^2, i lambda partial_i;i lambda overline(partial)_i, 1;delim: "[")) - sum_(i=1)^N hat(I)_2 gradient^2_i/(r_s^2) + 2/r_s sum_(i<j)^N 1/(|bold(r)_i - bold(r)_j|)
+    hat(H) = Delta sum_(i=1)^N mat(-lambda^2 gradient^2, i lambda partial_i;i lambda overline(partial)_i, 1;delim: "[") - sum_(i=1)^N hat(I)_2 gradient^2_i/(r_s^2) + 2/r_s sum_(i<j)^N 1/(|bold(r)_i - bold(r)_j|)
   $
   where $Delta$ is a large and positive constsant, $ partial = partial_x - i partial_y$
 ]
