@@ -5,7 +5,7 @@
 #show: main.with(
   title: "AnyRouter 返回520",
   desc: [Claude Code],
-  date: "2025-12-2",
+  date: "2025-01-25",
   tags: (blog-tags.ai,),
   license: licenses.cc-by-nc-sa,
 )
@@ -57,3 +57,6 @@ claude 这个命令行工具集成了 Statsig（一个用于功能开关管理�
 保护隐私：你的使用习惯、报错日志不会被上传到服务器。
 功能无损：这完全不影响你调用 DeepSeek 或 Claude 的 AI 核心功能。
 ]
+
+= Doomed
+AnyRouter is doomed? Track #link("https://check.linux.do")[here]
