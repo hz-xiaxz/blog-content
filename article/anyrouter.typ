@@ -5,7 +5,7 @@
 #show: main.with(
   title: "AnyRouter 返回520",
   desc: [Claude Code],
-  date: "2025-01-25",
+  date: "2026-01-25",
   tags: (blog-tags.ai,),
   license: licenses.cc-by-nc-sa,
 )
