@@ -79,7 +79,7 @@ $
 No, given by its translation property the triplet state can't be satisfied by nearby double spin-1/2 system. a single
 translation will give:
 $
-  T ket(psi_("triplet")) = 1/sqrt(6)(2 ket(downa upa) ox ket(upa)- ket(upa upa) ox ket(downa) - ket(upa downa) ox ket(upa)) != e^(i phi) ket(psi_("triplet"))\
+  T ket(psi_("triplet")) = 1/sqrt(6)(2 ket(downa upa) ox ket(upa)- ket(upa upa) ox ket(downa) - ket(upa downa) ox ket(upa)) != "GS of MG model"
 $
 
 So the ground state is
@@ -91,6 +91,16 @@ Applying spin inversion symmetry
 $
   ket(Phi^((2))_("MG")) = times.circle.big_(i=1)^N 1/sqrt(2) (ket(upa_(2i) downa_(2i+1)) - ket(downa_(2i) upa_(2i+1 )) )
 $
+
+== Translation symmetry breaking in each GS
+Apply explicitly the translation operator $T$ to the two ground states, we have
+
+$
+  T ket(Phi^((1))_("MG")) = ket(Phi^((2))_("MG")),\
+  T ket(Phi^((2))_("MG")) = ket(Phi^((1))_("MG"))
+$
+
+That means the two ground states themselves does not respect the translation symmetry, but the superposition of them does. This is a typical example of spontaneous symmetry breaking.
 
 = AKLT Model
 Consider two spin-1 addition, which has total spin $s = 0,1,2$. We can use Casimir operator to classify the irreducible
