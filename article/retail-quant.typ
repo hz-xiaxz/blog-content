@@ -1,6 +1,6 @@
 #import "/typ/templates/blog.typ": *
 #show: main.with(
-  title: "散户量化之路：从A股到美股",
+  title: "[AI生成] 散户量化之路：从A股到美股",
   desc: [A股散户为什么难赚钱？美股数据抓取、回测框架与Seeking Alpha调研。],
   date: "2026-03-10T07:16:14+08:00",
   tags: (blog-tags.stock, blog-tags.python,),
