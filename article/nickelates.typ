@@ -38,7 +38,7 @@ However, STM is not applicable to high pressure nickelates, so we don't have dir
 
 But, they are dealing with ambient pressure nickelates, so they can do STM, why not? 
 
-Well, there might be much meaning in doing so.
+Well, there might not be much meaning in doing so.
 
 == 1D kondo ferromagnets
 Even with antiferromagnetic kondo coupling.
