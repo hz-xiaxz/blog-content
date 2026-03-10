@@ -1,9 +1,9 @@
 #import "/typ/templates/blog.typ": *
 #show: main.with(
-  title: "美的哲学 philosophy",
+  title: "美的哲学",
   desc: [对比康德与司汤达对美的定义：无利害心与幸福的许诺，谁正确？],
   date: "2026-03-10T13:38:09+08:00",
-  tags: (blog-tags.self-improvement,),
+  tags: (blog-tags.philosophy,),
   license: licenses.cc-by-nc-sa,
 )
 
