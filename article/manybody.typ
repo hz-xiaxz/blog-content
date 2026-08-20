@@ -28,7 +28,7 @@
     H               &= H_(text("el")) + H_(text("bg")) + H_(text("int")) \
     H_(text("el"))  &= sum_(i=1)^(N) P_(i) / (2 m) + e^2 / 2 sum_(i,j) (e^(-mu abs(arrow(r_i) - arrow(r_j)))) / (abs(arrow(r_i) - arrow(r_j))) \
     H_(text("bg"))  &= e^2 / 2 integral dd(arrow(x), 3) dd(arrow(x)', 3) (n(arrow(x))n(arrow(x)') e^(-mu abs(arrow(x) - arrow(x)'))) / (abs(arrow(x) - arrow(x)')) \
-    H_(text("int")) &= -e^2 sum_(i=1)^(N) integral dd(arrow(x), 3) integral dd(arrow(x), 3) (n(arrow(x))e^(-mu abs(arrow(x) - arrow(r_i)))) / (abs(arrow(x) - arrow(r_i))) \
+    H_(text("int")) &= -e^2 sum_(i=1)^(N) integral dd(arrow(x), 3)  (n(arrow(x))e^(-mu abs(arrow(x) - arrow(r_i)))) / (abs(arrow(x) - arrow(r_i))) \
   $
 
   where we take the column interaction as the Yukawa form
